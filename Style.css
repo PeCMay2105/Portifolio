@@ -1,0 +1,110 @@
+body{
+    background: #D3D3D3
+}
+header{
+    width:auto;
+    background-color: #B0C4DE;
+    padding-left:20px;
+    border:  solid #000000;
+    line-height: 40px;
+}
+h1, nav, ul, il{
+    display:inline-block;
+}
+.conteiner{
+    position:relative;
+}
+.TituloPrimario{
+    font-size:60px;
+}
+
+ nav{
+    position:absolute;
+    right:8px;
+} 
+
+nav li{
+    display:inline;
+}
+
+nav a{
+    display:inline-block;
+    border:black solid;
+    border-radius: 15px;
+    position:relative;
+    width:auto;
+    text-decoration:none;
+    line-height: 20px;
+    padding:0 5px;
+    text-transform:uppercase;
+    text-transform: bold;
+    top:20px
+}
+nav a:hover{
+    color:#FFD700;
+    font-style: italic;
+    text-decoration:underline;
+}
+nav a:active{
+    color:gray;
+
+}
+
+.principal{
+    background:#B0C4DE
+}
+.TituloSecundario{
+    text-align:center;
+    border:8px solid #000000;
+    padding:20px;
+    margin:90px;
+}
+p{
+    text-align:center
+}
+p{
+    font-size: 18px
+}
+.EncontreNos{
+    background:#B0C4DE;
+    display: inline-block;
+    margin-left:30px;
+    padding:50px;
+    border: solid #FFD700
+}
+
+#ImagemCampo{
+    position:absolute;
+    border:solid #FFD700;
+    height:200px;
+    width:200px;
+    margin-left:50%;
+    vertical-align:top;
+    
+}
+.ImagemNoCampo{
+    position: relative;
+    bottom:400px;
+    display:flex;
+    justify-content:center;
+    vertical-align:top;
+}
+#Assinatura{
+    text-align:right
+}
+em strong{
+    color: red
+} 
+.redes{
+font-style:italic
+}
+#PosVinho{
+    width:80%;
+    height:150px;
+    bottom: 20px;
+    margin-left: 120px;
+}
+
+footer{
+    background:gray
+}
